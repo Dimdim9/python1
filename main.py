@@ -288,3 +288,20 @@ for k in range(1,101):
  L+=[k*2]
 print(L)'''
 
+#partie de lexcercice 17#
+'''L = []
+for k in range(1,101):
+ L+=[k*2]
+print(L)'''
+#partir 3
+'''def carre(n):
+    carre = []
+    for k in range (1,n+1):
+        carre.append(k**2)
+    return carre
+print(carre(5))'''
+
+'''def carre_compr(n):
+    L = [k*2 for k in range(1,n+1)]
+    return L 
+print(carre_compr(100))'''
