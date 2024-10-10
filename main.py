@@ -263,3 +263,28 @@ inverse = ''
 for i in string :
     inverse = i + inverse 
 print (inverse )'''
+
+
+#exercice 17#
+#programme 1
+'''L = []
+for k in range(1,101):
+ L+=[k]
+print(L)'''
+#programme 2
+'''L = []
+for k in range(1,101):
+    L.append(k)
+print(L) '''
+
+#programme 3
+'''L = 100*[0]
+for k in range(100):
+   L[k] = k+1
+print(L)'''
+#partie de lexcercice 17#
+'''L = []
+for k in range(1,101):
+ L+=[k*2]
+print(L)'''
+
